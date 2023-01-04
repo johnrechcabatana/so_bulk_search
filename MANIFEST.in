@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include sobulk_search *.css
+recursive-include sobulk_search *.csv
+recursive-include sobulk_search *.html
+recursive-include sobulk_search *.ico
+recursive-include sobulk_search *.js
+recursive-include sobulk_search *.json
+recursive-include sobulk_search *.md
+recursive-include sobulk_search *.png
+recursive-include sobulk_search *.py
+recursive-include sobulk_search *.svg
+recursive-include sobulk_search *.txt
+recursive-exclude sobulk_search *.pyc
