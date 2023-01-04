@@ -1,0 +1,41 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-01-04 09:01:44.485069",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "upload_template"
+ ],
+ "fields": [
+  {
+   "fieldname": "upload_template",
+   "fieldtype": "Attach",
+   "label": "Upload Template"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-01-04 10:49:01.250547",
+ "modified_by": "Administrator",
+ "module": "SO Bulk Search",
+ "name": "SO Bulk Search",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
