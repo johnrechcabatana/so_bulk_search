@@ -31,7 +31,7 @@ const export_data = frm => {
 		return {
 			doctype: 'Sales Order',
 			select_columns: JSON.stringify(columns),
-			filters: str(datapass),
+			filters: datapass,
 			file_type: "Excel",
 			template: true,
 			with_data: 1
